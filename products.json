@@ -1,0 +1,122 @@
+[
+    {
+        "name": "tshirt 1",
+        "price": 270,
+        "image": "images/tshirt1.webp"
+    },
+    {
+        "name": "tshirt 2",
+        "price": 390,
+        "image": "images/tshirt2.jpg"
+    },
+    {
+        "name": "tshirt 3",
+        "price": 420,
+        "image": "images/tshirt3.webp"
+    },
+    {
+        "name": "tshirt 4",
+        "price": 270,
+        "image": "images/tshirt4.jpg"
+    },
+    {
+        "name": "tshirt 5",
+        "price": 390,
+        "image": "images/tshirt5.jpg"
+    },
+    {
+        "name": "tshirt 6",
+        "price": 420,
+        "image": "images/tshirt6.jpg"
+    },
+    {
+        "name": "tshirt 7",
+        "price": 270,
+        "image": "images/tshirt7.jpg"
+    },
+    {
+        "name": "tshirt 8",
+        "price": 390,
+        "image": "images/tshirt8.jpg"
+    },
+    {
+        "name": "tshirt 9",
+        "price": 420,
+        "image": "images/tshirt9.jpg"
+    },
+    {
+        "name": "tshirt 10",
+        "price": 270,
+        "image": "images/tshirt10.jpg"
+    },
+    {
+        "name": "tshirt 11",
+        "price": 390,
+        "image": "images/tshirt11.jpg"
+    },
+    {
+        "name": "tshirt 12",
+        "price": 420,
+        "image": "images/tshirt12.jpg"
+    },
+    {
+        "name": "tshirt 13",
+        "price": 270,
+        "image": "images/tshirt13.jpg"
+    },
+    {
+        "name": "tshirt 14",
+        "price": 390,
+        "image": "images/tshirt14.jpg"
+    },
+    {
+        "name": "tshirt 15",
+        "price": 420,
+        "image": "images/tshirt15.jpg"
+    },
+    {
+        "name": "tshirt 16",
+        "price": 270,
+        "image": "images/tshirt16.jpg"
+    },
+    {
+        "name": "tshirt 17",
+        "price": 390,
+        "image": "images/tshirt17.jpg"
+    },
+    {
+        "name": "tshirt 18",
+        "price": 420,
+        "image": "images/tshirt18.jpg"
+    },
+    {
+        "name": "tshirt 19",
+        "price": 270,
+        "image": "images/tshirt19.jpg"
+    },
+    {
+        "name": "tshirt 20",
+        "price": 390,
+        "image": "images/tshirt20.jpg"
+    },
+    {
+        "name": "tshirt 21",
+        "price": 420,
+        "image": "images/tshirt21.jpg"
+    },
+    {
+        "name": "tshirt 22",
+        "price": 270,
+        "image": "images/tshirt22.jpg"
+    },
+    {
+        "name": "tshirt 23",
+        "price": 390,
+        "image": "images/tshirt23.jpg"
+    },
+    {
+        "name": "tshirt 24",
+        "price": 420,
+        "image": "images/tshirt24.jpg"
+    }
+]
