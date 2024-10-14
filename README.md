@@ -32,14 +32,16 @@ A modern eCommerce website developed by three students from University of Bundel
 
 4. **Start the local server** (e.g., XAMPP)
 5. **Create database**
-     users and products table as of now,       cart and orders table will be added        afterwards...
+   users and products table as of now,       cart and orders table will be added        afterwards...
    use this query for user table
+```
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE
 );
+```
 
 6. **Access the site**
     Open your web browser and navigate to:
