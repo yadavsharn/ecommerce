@@ -1,96 +1,90 @@
-# eCommerce Website for Clothing
+# ModelHub – AI/ML Showcase Website  
 
-A modern eCommerce website developed by three students from University of Bundelkhand, Jhansi.
+An interactive web application that demonstrates pre-trained AI/ML models directly in the browser. Users can upload images for classification, analyze sentiment from text, and generate text summaries. Built for **Athena Education Assignment**.  
 
-![Website Screenshot](https://github.com/metaXproject/ecommerce/blob/main/images/Screenshot%20(23).png)
+---
 
-## Features
+## 🚀 Features  
 
-- **Modern Design**: Clean and responsive layout using HTML and CSS.
-- **Product Grid View**: Display products with images, names, and prices.
-- **Dynamic Cart**: Add products to cart with live total updates.
-- **Secure Payments**: Integrated Stripe for processing payments.
-- **Session Management**: Secure user authentication and session handling.
-- **Local Server Optimization**: Easy to deploy using XAMPP.
+- **Image Classification** – Upload an image and get predictions (e.g., cat vs dog).  
+- **Sentiment Analysis** – Analyze whether text conveys positive, negative, or neutral emotions.  
+- **Text Summarization** – Generate concise summaries of long passages.  
+- **Educational Section** – Simple explanations of how AI works for visitors.  
+- **Fully Client-Side** – Runs in the browser with WebAssembly & WebGPU, ensuring privacy.  
 
-## Installation
+---
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/ecommerce-website.git
-    ```
+## 🖼️ Screenshots  
 
-2. **Move to the project directory**
-    ```bash
-    cd ecommerce-website
-    ```
+### Homepage  
+![Homepage](https://github.com/yadavsharn/ModelHub-AthenaEducation/blob/main/public/homepage.png)  
 
-3. **Move the project to the local server directory (e.g., XAMPP's htdocs)**
-    ```bash
-    mv ecommerce-website /path-to-xampp/htdocs/
-    ```
+### Image Classification Model  
+![Image Classifier](https://github.com/yadavsharn/ModelHub-AthenaEducation/blob/main/public/image%20classifier.png)  
 
-4. **Start the local server** (e.g., XAMPP)
-5. **Create database**
-   users and products table as of now,       cart and orders table will be added        afterwards...
-   use this query for user table
-```
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE
-);
-```
+### Text Summarizer & Sentiment Analyzer  
+![Text Transformers](https://github.com/yadavsharn/ModelHub-AthenaEducation/blob/main/public/text%20transformers.png)  
 
-6. **Access the site**
-    Open your web browser and navigate to:
-    ```
-    http://localhost/ecommerce-website/index.php
-    ```
+---
 
-## Configuration
+## 🛠️ Tech Stack  
 
-### Stripe Integration
+- **Frontend:** React + Vite + TypeScript  
+- **UI Components:** shadcn/ui + Tailwind CSS  
+- **AI Models:** Transformers.js (ONNX runtime in the browser)  
 
-1. **Set up your Stripe account**: Go to the [Stripe website](https://stripe.com/) and sign up for an account.
+---
 
-2. **Get API keys**: Obtain your publishable and secret keys from the Stripe Dashboard.
+## ⚡ Getting Started  
 
-3. **Configure API keys**: Add your Stripe API keys to your configuration file or environment variables.
+### Prerequisites  
+- [Node.js](https://nodejs.org/) (v18+)  
+- npm or yarn  
 
-### Database Setup
+### Installation  
 
-1. **Create a database**: Set up a MySQL database using phpMyAdmin or command line.
+```sh
+# Step 1: Clone the repository
+git clone https://github.com/yadavsharn/ModelHub-AthenaEducation.git
 
-2. **Import the database schema**: Import the provided SQL file to set up the necessary tables.
+# Step 2: Navigate to the project directory
+cd ModelHub-AthenaEducation
 
-3. **Configure database connection**: Update the `functions.php` file with your database credentials.
+# Step 3: Install dependencies
+npm install
 
-## Usage
+# Step 4: Start the development server
+npm run dev
 
-- **Add Products**: Modify the `products.json` file to add or update product details, including images, names, and prices.
-- **Manage Cart**: Users can add products to their cart and view the total amount dynamically.
-- **Checkout**: Use the integrated Stripe payment gateway to handle transactions.
 
-## Contributing
+Now open http://localhost:5173
+ in your browser.
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new Pull Request
 
-## License
+###🌍 Deployment
+You can deploy this project easily on:
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+Vercel
 
-## Contact
+Netlify
 
-For any inquiries or issues, please contact [Tanishq Seth](mailto:tanishqseth772@gmail.com).
+Any static hosting service supporting Vite builds
 
-## Contributors
+Build command:
 
-Shantanu Yadav [mail](mailto:shantanuyadav@protonmail.ch)<br>
-Rishabh Singh [mail](mailto:ayushsingh91200@gmail.com)<br>
-Tanishq Seth [mail](mailto:tanishqseth772@gmail.com)
+npm run build
+
+
+Output directory: dist/
+
+###📌 Project Info
+
+GitHub Repository: ModelHub-AthenaEducation
+
+Author: Shantanu Yadav
+
+###📜 License
+
+This project is licensed under the MIT License.
+
+
